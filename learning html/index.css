@@ -1,0 +1,24 @@
+.background {
+    background-image: url(../img/r4.jpg) ;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    color:red;
+}
+.color-text {
+    color: silver;
+}
+.white {
+    color: white;
+}
+table {
+    width: 100%;
+    color: white;
+}
+
+table td {
+    border: 1px  white solid;
+}

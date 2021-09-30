@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="mind app help you to organize " >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Hello World</title>
+    </head>
+    <body  class="background" >
+        <section>
+            <div>
+                <form class="color-text">
+                  <fieldset>
+                       <legend>well come to mind map </legend>
+                        <label>user name</label>
+                    <input type="text" name="user-name" required>
+                    <br>
+    
+                    <label>password</label>
+                    <input type="password" name="password" required maxlength="10">
+                    <br>
+
+                    <label for="">email</label>
+                    <input type="email" name="email" id="">
+    
+                    <label >remember me</label><br>
+                    <input type="checkbox" name="remember-me" >
+                    <br>
+                     
+                    <label >chouse your gender</label> <br>
+                    <input type="radio" name="gender" id="">male <br>
+                    <input type="radio" name="gender" id=""> female <br>
+
+                    <label >chouse your Specialization</label> <br>
+                    <input type="radio" name="Specialization" id="" value="developer"> developer<br>
+                    <input type="radio" name="Specialization" id="" value="designer">  designer<br>
+                    <input type="radio" name="Specialization" id="" value="programmer"> programmer<br>
+
+                    <input type="button" value="i want to signup"> <br>
+                    <select name="time" id="" size="1">
+                        <optgroup label="days" disabled>
+                            <option value="now">now</option>
+                            <option value="tomorrow">tomorrow</option>
+                            <option value="next month">after two days</option>
+                        </optgroup>
+                        <optgroup label="years">
+                              <option value="">year</option> 
+                              <option value=""> two years</option>     
+                              <option value="">three years</option> 
+                        </optgroup>
+
+                    </select> <br>
+                    <label >please give as your expectations</label><br>
+                    <textarea name="" id="" cols="30"  rows="10" style="color: rgb(15, 14, 14);"> i want to hhhhhhhhhhhhhhhhhhhhhhhjkjhkjhj kjhkjhkjkjkjhk kjhkjkjk                      kjhkjhkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkjhkjkjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkjhkj kjhkjhkjhkjkjh                          kjkjhkjk                    kjhkjhkjhhhhhhhhhhhhhhhhhhhhhhh       kjkjhkjhkjh              kjhkjhkjhkjhkjhk            kjh     build a great mind map plan</textarea><br>
+                    <input type="submit" value="go">
+                  </fieldset> 
+                </form>
+            </div>
+        </section>
+
+
+        <div style="text-align: center;">
+           <!-- learning some html -->
+        
+
+               <!-- some formating -->
+              <p  class="white">i want <del>to go</del>to tho <small>beach</small> in <ins>summer</ins> but it is <strong>haram</strong> 
+               <blockquote class="white" >this is a big quote this is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quotethis is a big quote<q>من ترك شيء لله عوضه الله خيرا منه</q></blockquote></p>
+                <!-- table -->
+            <table >
+                <caption>day meals table</caption>
+                <thead>
+                    <tr>
+                        <td>meal 1</td>
+                        <td>meal 2</td>
+                        <td>meal 3</td>
+                        <td>meal 4</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rice and olive oil</td>
+                        <td>salad some proteins and potato</td>
+                        <td>Rice</td>
+                        <td>salad , some proteins and potato</td>
+                    </tr>
+                    <tr>
+                        <td>500 kcal</td>
+                        <td>500 kcal</td>
+                        <td>500 kcal</td>
+                        <td>500 kcal</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>morning</td>
+                        <td>noon</td>
+                        <td>afternoon</td>
+                        <td>evening</td>
+                    </tr>
+                </tfoot>
+    
+            </table>
+    
+            <table>
+                <caption>family names</caption>
+                <thead>
+                    <tr>
+                        <td colspan="4">sisters</td>
+                        <td>broders</td>
+                        <td colspan="2">parents</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>fatima</td>
+                        <td>tecto</td>
+                        <td>zineb</td>
+                        <td>reqaia</td>
+                        <td>none</td>
+                        <td>rachid</td>
+                        <td>malika</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>me</td>
+                        <td>mohamed seddiki</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">my phone numbers</td>
+                        <td>548782121</td>
+                    </tr>
+                    <tr>
+                        <td>88787878</td>
+                    </tr>
+                    
+                    
+    
+    
+                </tfoot>
+            </table>
+    
+            <!-- matching size images -->
+            <picture>
+                <source media="(min-width: 650px)" srcset="../img/me.jpeg">
+                <source media="(min-width: 480px)" srcset="../img/me.jpeg">    
+    
+                <img src="../img/salamit.jpeg"  alt="me" style="width: 480px; height: 300px;">
+            </picture>
+            <br>
+            <!-- image map -->
+            <img src="../img/salamit.jpeg" usemap="#workmap" alt="me" style="width: 480px; height: 300px;">
+            <map name="workmap">
+                <area shape="circle" coords="50,200,50" href="../img/salamit.jpeg" alt="workmap">
+            </map>
+            
+            
+            <!-- iframe example -->
+            <div>
+                <iframe src="page2.html"   width="100%" height="300px" name="w3school" scrolling="none"></iframe>
+                
+            </div>
+            <footer>
+                <div class="color-text">
+                    <h1>space page</h1>
+                    <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+                    <address>
+                        this app is created by mohamed seddiki <br>
+                        JA GU <br>
+                        ja gu mind map
+                        
+                    </address>
+                    <p class="black"> <cite>R 4</cite> painted by JA GU </p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
